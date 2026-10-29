@@ -4,7 +4,7 @@ def classificar_mensagem(mensagem):
     if "cancelar" in mensagem:
         return "Cancelamento"
 
-    elif "comprar" in mensagem:
+    elif "compra" in mensagem:
         return "Venda"
 
     elif "ajuda" in mensagem:
@@ -16,9 +16,11 @@ def classificar_mensagem(mensagem):
 
 mensagens = [
     "Preciso cancelar o pedido",
+    "Quero comprar um produto",
     "Muito obrigado pelo atendimento",
     "Preciso de ajuda com minha compra",
-    "Quero saber o prazo de entrega"
+    "Quero saber o prazo de entrega",
+    "Gostaria de realizar uma compra"
 ]
 
 
