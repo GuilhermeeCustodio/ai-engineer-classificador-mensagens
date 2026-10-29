@@ -1,11 +1,11 @@
 def classificar_mensagem(mensagem):
     mensagem = mensagem.lower()
 
-    if "problema" in mensagem:
-        return "Reclamação"
+    if "cancelar" in mensagem:
+        return "Cancelamento"
 
-    elif "obrigado" in mensagem:
-        return "Elogio"
+    elif "comprar" in mensagem:
+        return "Venda"
 
     elif "ajuda" in mensagem:
         return "Suporte"
@@ -15,7 +15,7 @@ def classificar_mensagem(mensagem):
 
 
 mensagens = [
-    "Estou com um problema no pedido",
+    "Preciso cancelar o pedido",
     "Muito obrigado pelo atendimento",
     "Preciso de ajuda com minha compra",
     "Quero saber o prazo de entrega"
