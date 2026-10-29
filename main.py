@@ -4,11 +4,14 @@ def classificar_mensagem(mensagem):
     if "cancelar" in mensagem:
         return "Cancelamento"
 
+    elif "ajuda" in mensagem:
+        return "Suporte"
+
     elif "compra" in mensagem:
         return "Venda"
 
-    elif "ajuda" in mensagem:
-        return "Suporte"
+    elif "obrigado" in mensagem:
+        return "Elogio"
 
     else:
         return "Não classificado"
